@@ -1,0 +1,350 @@
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 442, 1482
+=====================================
+
+Read input file(../input/in0.txt)...
+Read output file(../input/out0.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.00786973 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1466, 767
+=====================================
+
+Read input file(../input/in1.txt)...
+Read output file(../input/out1.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0320419 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1847, 872
+=====================================
+
+Read input file(../input/in2.txt)...
+Read output file(../input/out2.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0273894 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1312, 767
+=====================================
+
+Read input file(../input/in3.txt)...
+Read output file(../input/out3.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0184872 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1844, 1980
+=====================================
+
+Read input file(../input/in4.txt)...
+Read output file(../input/out4.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0788963 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1806, 951
+=====================================
+
+Read input file(../input/in5.txt)...
+Read output file(../input/out5.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0424437 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1843, 1853
+=====================================
+
+Read input file(../input/in6.txt)...
+Read output file(../input/out6.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0598748 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1441, 1112
+=====================================
+
+Read input file(../input/in7.txt)...
+Read output file(../input/out7.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0267005 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 993, 668
+=====================================
+
+Read input file(../input/in8.txt)...
+Read output file(../input/out8.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0157054 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1492, 1112
+=====================================
+
+Read input file(../input/in9.txt)...
+Read output file(../input/out9.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0236269 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 601, 834
+=====================================
+
+Read input file(../input/in10.txt)...
+Read output file(../input/out10.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0081979 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1172, 712
+=====================================
+
+Read input file(../input/in11.txt)...
+Read output file(../input/out11.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0142685 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1199, 1892
+=====================================
+
+Read input file(../input/in12.txt)...
+Read output file(../input/out12.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0257923 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 838, 1595
+=====================================
+
+Read input file(../input/in13.txt)...
+Read output file(../input/out13.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0209033 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1682, 1250
+=====================================
+
+Read input file(../input/in14.txt)...
+Read output file(../input/out14.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0278437 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1940, 1016
+=====================================
+
+Read input file(../input/in15.txt)...
+Read output file(../input/out15.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0312772 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1144, 1512
+=====================================
+
+Read input file(../input/in16.txt)...
+Read output file(../input/out16.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0351237 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1304, 939
+=====================================
+
+Read input file(../input/in17.txt)...
+Read output file(../input/out17.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0197136 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 707, 1097
+=====================================
+
+Read input file(../input/in18.txt)...
+Read output file(../input/out18.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.00882598 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1152, 1500
+=====================================
+
+Read input file(../input/in19.txt)...
+Read output file(../input/out19.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.0254513 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1333, 412
+=====================================
+
+Read input file(../input/in20.txt)...
+Read output file(../input/out20.txt)...
+
+Run your solution...
+
+matmul_optimal took 0.014416 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 1024, 1024
+=====================================
+
+Read input file(../input/matrix1024.in)...
+Read output file(../input/matrix1024.out)...
+
+Run your solution...
+
+matmul_optimal took 0.0170939 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 2048, 2048
+=====================================
+
+Read input file(../input/matrix2048.in)...
+Read output file(../input/matrix2048.out)...
+
+Run your solution...
+
+matmul_optimal took 0.105548 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 2048, 256
+=====================================
+
+Read input file(../input/matrix_corner1.in)...
+Read output file(../input/matrix_corner1.out)...
+
+Run your solution...
+
+matmul_optimal took 0.0189425 sec
+Correct
+
+=====================================
+         Matrix Multiplication       
+=====================================
+The size of Matrix: 256, 2048
+=====================================
+
+Read input file(../input/matrix_corner2.in)...
+Read output file(../input/matrix_corner2.out)...
+
+Run your solution...
+
+matmul_optimal took 0.00651242 sec
+Correct
+

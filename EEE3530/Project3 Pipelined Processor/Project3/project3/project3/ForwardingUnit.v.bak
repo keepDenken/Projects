@@ -1,0 +1,22 @@
+module ForwardingUnit(ID_EXRS1, IDEXRS2, EX_MEMRd, MEM_WBRd,
+						EX_MEMRegWrite, MEM_WBRegWrite,
+						ForwardA, ForwardB);
+						
+	input [4:0] ID_EXRS1, IDEXRS2, EX_MEMRd, MEM_WBRd;
+	input EX_MEMRegWrite, MEM_WBRegWrite;
+	
+	output [1:0] ForwardA, ForwardB;
+	
+		//decide whether the register declarations are needed
+	reg [1:0] ForwardA, ForwardB;
+	
+	// fill in the missing code
+
+
+
+
+
+
+				
+
+endmodule

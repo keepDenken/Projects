@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : Top_3
+Version: Q-2019.12-SP5-5
+Date   : Sun May 12 21:43:30 2024
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ff1p16v125c (File: /data3/Class/SID/2024_1/2024_1_sid80/lib/SAED32_EDK/saed32rvt_ff1p16v125c.db)
+
+Number of ports:                         6143
+Number of nets:                          8535
+Number of cells:                         3070
+Number of combinational cells:           2296
+Number of sequential cells:               160
+Number of macros/black boxes:               0
+Number of buf/inv:                         14
+Number of references:                      10
+
+Combinational area:               7645.668070
+Buf/Inv area:                       26.939265
+Noncombinational area:             953.548317
+Macro/Black Box area:                0.000000
+Net Interconnect area:            1766.315569
+
+Total cell area:                  8599.216387
+Total area:                      10365.531956
+1

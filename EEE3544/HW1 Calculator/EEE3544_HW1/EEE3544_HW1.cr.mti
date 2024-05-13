@@ -1,0 +1,58 @@
+C:/intelFPGA/17.0/ALU.v {2 {vlog -work work -stats=none C:/intelFPGA/17.0/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+** Warning: C:/intelFPGA/17.0/ALU.v(24): (vlog-2182) 'prevop' might be read before written in always_comb or always @* block.
+
+Top level modules:
+	ALU
+
+} {} {}} C:/intelFPGA/17.0/MULTIPLIER.v {1 {vlog -work work -stats=none C:/intelFPGA/17.0/MULTIPLIER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MULTIPLIER
+
+Top level modules:
+	MULTIPLIER
+
+} {} {}} C:/intelFPGA/17.0/SUBTRACTER.v {1 {vlog -work work -stats=none C:/intelFPGA/17.0/SUBTRACTER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SUBTRACTER
+
+Top level modules:
+	SUBTRACTER
+
+} {} {}} C:/intelFPGA/17.0/TOP.v {1 {vlog -work work -stats=none C:/intelFPGA/17.0/TOP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TOP
+
+Top level modules:
+	TOP
+
+} {} {}} C:/intelFPGA/17.0/IMEM.v {1 {vlog -work work -sv -stats=none C:/intelFPGA/17.0/IMEM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module IMEM
+
+Top level modules:
+	IMEM
+
+} {} {}} C:/intelFPGA/17.0/ADDER.v {1 {vlog -work work -stats=none C:/intelFPGA/17.0/ADDER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ADDER
+
+Top level modules:
+	ADDER
+
+} {} {}} C:/intelFPGA/17.0/CONTROLLER.v {1 {vlog -work work -stats=none C:/intelFPGA/17.0/CONTROLLER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROLLER
+
+Top level modules:
+	CONTROLLER
+
+} {} {}} C:/intelFPGA/17.0/tbTOP.v {1 {vlog -work work -stats=none C:/intelFPGA/17.0/tbTOP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tbTOP
+
+Top level modules:
+	tbTOP
+
+} {} {}}

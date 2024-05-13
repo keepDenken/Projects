@@ -1,0 +1,99 @@
+# Reading C:/intelFPGA/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project EEE3544_HW1
+# Compile of TOP.v was successful.
+# Compile of IMEM.v was successful.
+# Compile of tbTOP.v was successful.
+# Compile of CONTROLLER.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of MULTIPLIER.v was successful.
+# Compile of SUBTRACTER.v was successful.
+# Compile of ALU.v was successful with warnings.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.tbTOP
+# vsim -gui work.tbTOP 
+# Start time: 22:20:50 on Apr 14,2024
+# Loading work.tbTOP
+# Loading work.TOP
+# Loading sv_std.std
+# Loading work.IMEM
+# Loading work.CONTROLLER
+# Loading work.ALU
+# Loading work.ADDER
+# Loading work.SUBTRACTER
+# Loading work.MULTIPLIER
+add wave -position insertpoint sim:/tbTOP/*
+run -all
+# ** Note: $stop    : C:/intelFPGA/17.0/tbTOP.v(54)
+#    Time: 260 ps  Iteration: 0  Instance: /tbTOP
+# Break in Module tbTOP at C:/intelFPGA/17.0/tbTOP.v line 54
+vsim -gui work.tbTOP
+# End time: 22:23:55 on Apr 14,2024, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 0
+# vsim -gui work.tbTOP 
+# Start time: 22:23:55 on Apr 14,2024
+# Loading work.tbTOP
+# Loading work.TOP
+# Loading sv_std.std
+# Loading work.IMEM
+# Loading work.CONTROLLER
+# Loading work.ALU
+# Loading work.ADDER
+# Loading work.SUBTRACTER
+# Loading work.MULTIPLIER
+add wave -position insertpoint sim:/tbTOP/*
+add wave -position insertpoint sim:/tbTOP/TOP0/ALU0/*
+run -all
+# ** Note: $stop    : C:/intelFPGA/17.0/tbTOP.v(54)
+#    Time: 260 ps  Iteration: 0  Instance: /tbTOP
+# Break in Module tbTOP at C:/intelFPGA/17.0/tbTOP.v line 54
+vsim -gui work.tbTOP
+# End time: 22:27:55 on Apr 14,2024, Elapsed time: 0:04:00
+# Errors: 0, Warnings: 0
+# vsim -gui work.tbTOP 
+# Start time: 22:27:55 on Apr 14,2024
+# Loading work.tbTOP
+# Loading work.TOP
+# Loading sv_std.std
+# Loading work.IMEM
+# Loading work.CONTROLLER
+# Loading work.ALU
+# Loading work.ADDER
+# Loading work.SUBTRACTER
+# Loading work.MULTIPLIER
+add wave -position insertpoint sim:/tbTOP/TOP0/ALU0/*
+add wave -position insertpoint sim:/tbTOP/TOP0/CONTROLLER0/*
+run -all
+# ** Note: $stop    : C:/intelFPGA/17.0/tbTOP.v(54)
+#    Time: 260 ps  Iteration: 0  Instance: /tbTOP
+# Break in Module tbTOP at C:/intelFPGA/17.0/tbTOP.v line 54
+# Compile of TOP.v was successful.
+# Compile of IMEM.v was successful.
+# Compile of tbTOP.v was successful.
+# Compile of CONTROLLER.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of MULTIPLIER.v was successful.
+# Compile of SUBTRACTER.v was successful.
+# Compile of ALU.v was successful with warnings.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.tbTOP
+# End time: 22:30:23 on Apr 14,2024, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 0
+# vsim -gui work.tbTOP 
+# Start time: 22:30:23 on Apr 14,2024
+# Loading work.tbTOP
+# Loading work.TOP
+# Loading sv_std.std
+# Loading work.IMEM
+# Loading work.CONTROLLER
+# Loading work.ALU
+# Loading work.ADDER
+# Loading work.SUBTRACTER
+# Loading work.MULTIPLIER
+add wave -position insertpoint sim:/tbTOP/*
+add wave -position insertpoint sim:/tbTOP/TOP0/IMEM0/*
+add wave -position insertpoint sim:/tbTOP/TOP0/ALU0/*
+add wave -position insertpoint sim:/tbTOP/TOP0/CONTROLLER0/*
+run -all
+# ** Note: $stop    : C:/intelFPGA/17.0/tbTOP.v(54)
+#    Time: 260 ps  Iteration: 0  Instance: /tbTOP
+# Break in Module tbTOP at C:/intelFPGA/17.0/tbTOP.v line 54

@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1000mV 100C Model Setup 'alu_ctl:inst5|ALUOperation[0]'
+Slack : -17.088
+TNS   : -935.530
+
+Type  : Slow 1000mV 100C Model Setup 'clock'
+Slack : -11.950
+TNS   : -42242.696
+
+Type  : Slow 1000mV 100C Model Setup 'INSTRUCTION[12]'
+Slack : -2.468
+TNS   : -6.867
+
+Type  : Slow 1000mV 100C Model Setup 'INSTRUCTION[0]'
+Slack : -1.789
+TNS   : -12.365
+
+Type  : Slow 1000mV 100C Model Hold 'INSTRUCTION[0]'
+Slack : -3.514
+TNS   : -6.738
+
+Type  : Slow 1000mV 100C Model Hold 'alu_ctl:inst5|ALUOperation[0]'
+Slack : -1.759
+TNS   : -12.235
+
+Type  : Slow 1000mV 100C Model Hold 'INSTRUCTION[12]'
+Slack : -1.062
+TNS   : -2.123
+
+Type  : Slow 1000mV 100C Model Hold 'clock'
+Slack : 0.522
+TNS   : 0.000
+
+Type  : Slow 1000mV 100C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -7337.080
+
+Type  : Slow 1000mV 100C Model Minimum Pulse Width 'INSTRUCTION[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1000mV 100C Model Minimum Pulse Width 'INSTRUCTION[12]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1000mV 100C Model Minimum Pulse Width 'alu_ctl:inst5|ALUOperation[0]'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 1000mV -40C Model Setup 'alu_ctl:inst5|ALUOperation[0]'
+Slack : -15.909
+TNS   : -874.865
+
+Type  : Slow 1000mV -40C Model Setup 'clock'
+Slack : -10.948
+TNS   : -39127.263
+
+Type  : Slow 1000mV -40C Model Setup 'INSTRUCTION[12]'
+Slack : -2.165
+TNS   : -5.992
+
+Type  : Slow 1000mV -40C Model Setup 'INSTRUCTION[0]'
+Slack : -1.894
+TNS   : -13.975
+
+Type  : Slow 1000mV -40C Model Hold 'INSTRUCTION[0]'
+Slack : -3.166
+TNS   : -6.127
+
+Type  : Slow 1000mV -40C Model Hold 'alu_ctl:inst5|ALUOperation[0]'
+Slack : -1.484
+TNS   : -8.885
+
+Type  : Slow 1000mV -40C Model Hold 'INSTRUCTION[12]'
+Slack : -1.058
+TNS   : -2.115
+
+Type  : Slow 1000mV -40C Model Hold 'clock'
+Slack : 0.515
+TNS   : 0.000
+
+Type  : Slow 1000mV -40C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -7337.080
+
+Type  : Slow 1000mV -40C Model Minimum Pulse Width 'INSTRUCTION[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1000mV -40C Model Minimum Pulse Width 'INSTRUCTION[12]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1000mV -40C Model Minimum Pulse Width 'alu_ctl:inst5|ALUOperation[0]'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1000mV -40C Model Setup 'alu_ctl:inst5|ALUOperation[0]'
+Slack : -9.396
+TNS   : -511.364
+
+Type  : Fast 1000mV -40C Model Setup 'clock'
+Slack : -6.701
+TNS   : -22699.056
+
+Type  : Fast 1000mV -40C Model Setup 'INSTRUCTION[12]'
+Slack : -1.423
+TNS   : -3.991
+
+Type  : Fast 1000mV -40C Model Setup 'INSTRUCTION[0]'
+Slack : -0.392
+TNS   : -1.368
+
+Type  : Fast 1000mV -40C Model Hold 'INSTRUCTION[0]'
+Slack : -2.098
+TNS   : -4.101
+
+Type  : Fast 1000mV -40C Model Hold 'alu_ctl:inst5|ALUOperation[0]'
+Slack : -1.199
+TNS   : -10.806
+
+Type  : Fast 1000mV -40C Model Hold 'INSTRUCTION[12]'
+Slack : -0.613
+TNS   : -1.220
+
+Type  : Fast 1000mV -40C Model Hold 'clock'
+Slack : 0.272
+TNS   : 0.000
+
+Type  : Fast 1000mV -40C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -7337.080
+
+Type  : Fast 1000mV -40C Model Minimum Pulse Width 'INSTRUCTION[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1000mV -40C Model Minimum Pulse Width 'INSTRUCTION[12]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1000mV -40C Model Minimum Pulse Width 'alu_ctl:inst5|ALUOperation[0]'
+Slack : 0.440
+TNS   : 0.000
+
+------------------------------------------------------------

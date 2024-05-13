@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\University\3-1\ComputerArchitecture\Project12\simulation\qsim
+vProject12
+Z1 !s100 @N=_LiEB]XBfo=f]0Q;1h0
+Z2 I>B9RjnS<^h5zIP`??kn8@0
+Z3 Vk879@BmzXYzcDAkj;5Y]S0
+Z4 dE:\University\3-1\ComputerArchitecture\Project12\simulation\qsim
+Z5 w1681275568
+Z6 8Project12.vo
+Z7 FProject12.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Project12.vo|
+Z10 o-work work -O0
+Z11 n@project12
+!i10b 1
+!s85 0
+Z12 !s108 1681275568.688000
+Z13 !s107 Project12.vo|
+!s101 -O0
+vProject12_vlg_check_tst
+!i10b 1
+!s100 `;@EI8PnDL]0@jfn4fB`;0
+IMHER18k<bc09W:W;2^VUI0
+Z14 V]6CKHc@_JJ0o<6J>n3[2H0
+R4
+Z15 w1681275566
+Z16 8bit_overflow.vwf.vt
+Z17 Fbit_overflow.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z18 !s108 1681275568.810000
+Z19 !s107 bit_overflow.vwf.vt|
+Z20 !s90 -work|work|bit_overflow.vwf.vt|
+!s101 -O0
+R10
+Z21 n@project12_vlg_check_tst
+vProject12_vlg_sample_tst
+!i10b 1
+!s100 :g8<QRo8kf3QE12=F2UK`1
+I:Kc3BkcVTW1UP;6`5RZ4b2
+Z22 V[J[d^fK@_UQ0IG8<Qn0=E0
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z23 n@project12_vlg_sample_tst
+vProject12_vlg_vec_tst
+!i10b 1
+!s100 QMd^TGVLM=jTcLBC_:[:W1
+IR=gPdG8I@4J7nW]n3aY8g0
+Z24 VM^P]aG5UdcYfmD<LLI4iG0
+R4
+R15
+R16
+R17
+Z25 L0 281
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z26 n@project12_vlg_vec_tst

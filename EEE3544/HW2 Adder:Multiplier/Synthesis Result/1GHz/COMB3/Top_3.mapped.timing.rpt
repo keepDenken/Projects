@@ -1,0 +1,101 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Top_3
+Version: Q-2019.12-SP5-5
+Date   : Sun May 12 21:47:10 2024
+****************************************
+
+Operating Conditions: ff1p16v125c   Library: saed32rvt_ff1p16v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: DFF_B_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: DFF_Result_reg[30]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Top_3              16000                 saed32rvt_ff1p16v125c
+  ROW_MUL_14         8000                  saed32rvt_ff1p16v125c
+  MUL_32bit_0        8000                  saed32rvt_ff1p16v125c
+  ROW_MUL_13         8000                  saed32rvt_ff1p16v125c
+  FA_1bit_394        ForQA                 saed32rvt_ff1p16v125c
+  FA_1bit_42         ForQA                 saed32rvt_ff1p16v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DFF_B_reg[2]/CLK (DFFX1_RVT)                            0.00       0.00 r
+  DFF_B_reg[2]/Q (DFFX1_RVT)                              0.05       0.05 f
+  U56/Y (INVX0_RVT)                                       0.01       0.06 r
+  U57/Y (IBUFFX4_RVT)                                    -0.02       0.05 f
+  DFF_B_tri[2]/Y (TNBUFFX4_RVT)                           0.04       0.08 f
+  module_A/B[2] (MUL_32bit_0)                             0.00       0.08 f
+  module_A/ROW2/B (ROW_MUL_14)                            0.00       0.08 f
+  module_A/ROW2/U19/Y (AND2X1_RVT)                        0.21       0.30 f
+  module_A/ROW2/ROW[23]/A (FA_1bit_489)                   0.00       0.30 f
+  module_A/ROW2/ROW[23]/U3/Y (AO22X1_RVT)                 0.03       0.33 f
+  module_A/ROW2/ROW[23]/Cout (FA_1bit_489)                0.00       0.33 f
+  module_A/ROW2/Cout[23] (ROW_MUL_14)                     0.00       0.33 f
+  module_A/ROW3/Cin[23] (ROW_MUL_13)                      0.00       0.33 f
+  module_A/ROW3/U2/Y (IBUFFX4_RVT)                        0.09       0.43 r
+  module_A/ROW3/U3/Y (INVX1_RVT)                          0.01       0.44 f
+  module_A/ROW3/ROW[23]/Cin (FA_1bit_457)                 0.00       0.44 f
+  module_A/ROW3/ROW[23]/U3/Y (AO22X1_RVT)                 0.03       0.47 f
+  module_A/ROW3/ROW[23]/Cout (FA_1bit_457)                0.00       0.47 f
+  module_A/ROW3/Cout[23] (ROW_MUL_13)                     0.00       0.47 f
+  module_A/ROW4/Cin[23] (ROW_MUL_12)                      0.00       0.47 f
+  module_A/ROW4/ROW[23]/Cin (FA_1bit_425)                 0.00       0.47 f
+  module_A/ROW4/ROW[23]/U1/Y (XOR2X2_RVT)                 0.05       0.52 r
+  module_A/ROW4/ROW[23]/C (FA_1bit_425)                   0.00       0.52 r
+  module_A/ROW4/Sout[23] (ROW_MUL_12)                     0.00       0.52 r
+  module_A/ROW5/Sin[22] (ROW_MUL_11)                      0.00       0.52 r
+  module_A/ROW5/ROW[22]/B (FA_1bit_394)                   0.00       0.52 r
+  module_A/ROW5/ROW[22]/U1/Y (XNOR2X2_RVT)                0.06       0.59 r
+  module_A/ROW5/ROW[22]/U4/Y (AO22X1_RVT)                 0.04       0.63 r
+  module_A/ROW5/ROW[22]/Cout (FA_1bit_394)                0.00       0.63 r
+  module_A/ROW5/Cout[22] (ROW_MUL_11)                     0.00       0.63 r
+  module_A/ROW6/Cin[22] (ROW_MUL_10)                      0.00       0.63 r
+  module_A/ROW6/ROW[22]/Cin (FA_1bit_362)                 0.00       0.63 r
+  module_A/ROW6/ROW[22]/U3/Y (AO22X1_RVT)                 0.13       0.76 r
+  module_A/ROW6/ROW[22]/Cout (FA_1bit_362)                0.00       0.76 r
+  module_A/ROW6/Cout[22] (ROW_MUL_10)                     0.00       0.76 r
+  module_A/ROW7/Cin[22] (ROW_MUL_9)                       0.00       0.76 r
+  module_A/ROW7/ROW[22]/Cin (FA_1bit_330)                 0.00       0.76 r
+  module_A/ROW7/ROW[22]/U3/Y (AO22X1_RVT)                 0.06       0.82 r
+  module_A/ROW7/ROW[22]/Cout (FA_1bit_330)                0.00       0.82 r
+  module_A/ROW7/Cout[22] (ROW_MUL_9)                      0.00       0.82 r
+  module_A/FINAL_SUM/B[22] (RCA_32bit_0)                  0.00       0.82 r
+  module_A/FINAL_SUM/RCA101/B[2] (RCA_4bit_11)            0.00       0.82 r
+  module_A/FINAL_SUM/RCA101/FA10/B (FA_1bit_42)           0.00       0.82 r
+  module_A/FINAL_SUM/RCA101/FA10/U2/Y (XOR2X2_RVT)        0.05       0.87 f
+  module_A/FINAL_SUM/RCA101/FA10/U1/Y (XOR2X1_RVT)        0.05       0.92 r
+  module_A/FINAL_SUM/RCA101/FA10/C (FA_1bit_42)           0.00       0.92 r
+  module_A/FINAL_SUM/RCA101/C[2] (RCA_4bit_11)            0.00       0.92 r
+  module_A/FINAL_SUM/S[22] (RCA_32bit_0)                  0.00       0.92 r
+  module_A/Y[30] (MUL_32bit_0)                            0.00       0.92 r
+  U70/Y (AO222X1_RVT)                                     0.06       0.98 r
+  DFF_Result_reg[30]/D (DFFX2_RVT)                        0.00       0.98 r
+  data arrival time                                                  0.98
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  DFF_Result_reg[30]/CLK (DFFX2_RVT)                      0.00       1.00 r
+  library setup time                                     -0.02       0.98
+  data required time                                                 0.98
+  --------------------------------------------------------------------------
+  data required time                                                 0.98
+  data arrival time                                                 -0.98
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

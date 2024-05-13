@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="top_level_KMC">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_level_KMC|BUSMUX:inst11|lpm_mux:$00000" CBX_FILE_NAME="mux_0tc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_level_KMC|BUSMUX:inst13|lpm_mux:$00000" CBX_FILE_NAME="mux_0tc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_level_KMC|IDEXreg:inst|altshift_taps:EXM2R_rtl_0" CBX_FILE_NAME="shift_taps_g6m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_level_KMC|reg_file:inst18|altsyncram:ARRAY_rtl_1" CBX_FILE_NAME="altsyncram_rkh1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_level_KMC|BUSMUX:inst10|lpm_mux:$00000" CBX_FILE_NAME="mux_0tc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_level_KMC|mem32:inst40|altsyncram:mem_array_rtl_0" CBX_FILE_NAME="altsyncram_vad1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_level_KMC|reg_file:inst18|altsyncram:ARRAY_rtl_0" CBX_FILE_NAME="altsyncram_rkh1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

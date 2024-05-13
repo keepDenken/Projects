@@ -1,0 +1,189 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/17.0
+vADDER
+Z0 !s110 1713101816
+!i10b 1
+!s100 [Rn2>6IMzHhimA@33llZQ0
+IjLBQLJXaa?OV[LLbzWRGL2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/minchan/Downloads/EEE3544_HW1/EEE3544_HW1
+w1713100629
+8C:/intelFPGA/17.0/ADDER.v
+FC:/intelFPGA/17.0/ADDER.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1713101816.000000
+!s107 C:/intelFPGA/17.0/ADDER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/17.0/ADDER.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@d@d@e@r
+vALU
+R0
+!i10b 1
+!s100 cRW5YI1hn8V3:al>Y_JM?2
+IbWK0TIV7=Zl=KP3GQVFUe0
+R1
+R2
+w1713100621
+8C:/intelFPGA/17.0/ALU.v
+FC:/intelFPGA/17.0/ALU.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA/17.0/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/17.0/ALU.v|
+!i113 1
+R5
+R6
+n@a@l@u
+vCONTROLLER
+R0
+!i10b 1
+!s100 fo9_V<m?fRN>WY9h;8>5_3
+IzKl59i67PI0o6S>iWNnQ21
+R1
+R2
+w1713100587
+8C:/intelFPGA/17.0/CONTROLLER.v
+FC:/intelFPGA/17.0/CONTROLLER.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA/17.0/CONTROLLER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/17.0/CONTROLLER.v|
+!i113 1
+R5
+R6
+n@c@o@n@t@r@o@l@l@e@r
+vIMEM
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R0
+!i10b 1
+!s100 CkPB8MBh[W_?^]jVbn<Q63
+ISV>?=UhOL=M=3JH:MgVbG3
+R1
+!s105 IMEM_v_unit
+S1
+R2
+w1713101404
+8C:/intelFPGA/17.0/IMEM.v
+FC:/intelFPGA/17.0/IMEM.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA/17.0/IMEM.v|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/intelFPGA/17.0/IMEM.v|
+!i113 1
+o-work work -sv
+R6
+n@i@m@e@m
+vMULTIPLIER
+R0
+!i10b 1
+!s100 3d[JUabdCL4c64N?U@58]3
+INzVdSBh^@gmRP@d6MMUT71
+R1
+R2
+w1713100647
+8C:/intelFPGA/17.0/MULTIPLIER.v
+FC:/intelFPGA/17.0/MULTIPLIER.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA/17.0/MULTIPLIER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/17.0/MULTIPLIER.v|
+!i113 1
+R5
+R6
+n@m@u@l@t@i@p@l@i@e@r
+vSUBTRACTER
+R0
+!i10b 1
+!s100 @1H?3zPa25L^`MgG4Fz^E0
+I7iQn2>RUQY4WE;L6bLQP<3
+R1
+R2
+w1713100637
+8C:/intelFPGA/17.0/SUBTRACTER.v
+FC:/intelFPGA/17.0/SUBTRACTER.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA/17.0/SUBTRACTER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/17.0/SUBTRACTER.v|
+!i113 1
+R5
+R6
+n@s@u@b@t@r@a@c@t@e@r
+vtbTOP
+R0
+!i10b 1
+!s100 L0VHNX7Z;Xm;`F8[Z0IUo0
+I:Q=?8MaIam<38iXo9kO471
+R1
+R2
+w1713100655
+8C:/intelFPGA/17.0/tbTOP.v
+FC:/intelFPGA/17.0/tbTOP.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA/17.0/tbTOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/17.0/tbTOP.v|
+!i113 1
+R5
+R6
+ntb@t@o@p
+vTOP
+R0
+!i10b 1
+!s100 [DP92kR<EGmm>JNG2ikk[3
+Iz4P5RhMb`ZchUd_=`U95C1
+R1
+R2
+w1713100755
+8C:/intelFPGA/17.0/TOP.v
+FC:/intelFPGA/17.0/TOP.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA/17.0/TOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/17.0/TOP.v|
+!i113 1
+R5
+R6
+n@t@o@p

@@ -1,0 +1,8 @@
+read top_secret.data
+read secret.data
+read confidential.data
+read unclassified.data
+write top_secret.data
+write secret.data
+write confidential.data
+write unclassified.data

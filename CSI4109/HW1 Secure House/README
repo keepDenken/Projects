@@ -1,0 +1,170 @@
+[2021142180][Kim Min Chan]
+
+# 1. main()
+
+### A. Check execution argument.
+
+When executing secure_house, it needs at least 3 arg (e.g."./secure_house", {owner_name}, {key}. Therefore it checks the argc and if it is lower than 3, it generates error and terminate secure_house with exit code 1.
+
+Also, since {user_name} and {key} should follow the given format, it checks the format for every argument.
+
+### B. Initialize secure_house variable.
+
+After checking the argument, it initialize the SECURE_HOUSE struct.
+
+
+### C. Recieving varying size input.
+
+To recieve varying size input, it dynamically allocate the buffer using malloc and realloc.
+And it recieves input using fgets. Every input is separted by newline character "\n".
+
+### D. handle command
+
+After recieving input, it call handle_cmd() to handle the input command line.
+
+### E. Terminate process.
+
+If empty input is recieved, it free the input buffer and finalize the SECURE_HOUSE struct.
+After that, it terminates the process.
+
+# 2. handle_cmd()
+
+handle_cmd() deals with input command line.
+
+### A. Command Type
+
+By comparing the cmd_line and command in cmd_list, it determines the command type.
+Based on this command type, it calls the function for events.
+
+### B. Input Pre-processing
+
+It removes the leading and following white spaces.
+After that, it parse and store the argument in argv with delimeter " " and determine the number of argument argc.
+
+### C. Function call for events
+
+It calls function for events. It is based on the command type determined at stage A.
+
+
+# 3. Struct SECURE_HOUSE
+
+### A. owner_name, user_name, inserted_key
+
+char pointer for storing the information corresponding to the name of variable.
+Dynamically allocated to deal with varying size of input.
+
+### B. keys
+
+char double pointer for storing the array of keys. Also dynamically allocated to deal with varying size of input.
+
+### C. resident
+
+Linear linked list. Store the information of current residing users.
+
+### D. lock_state, num_key
+
+int type, storing information corresponding to the name of variable.
+
+# 4. insert_key()
+
+### A. Check argument.
+
+Check for number and format of argument. If it doesn't match to given spec, generates error and returns.
+
+### B. Reset Lock State
+
+Reset lock_state = LOCKED
+
+### C. Set user_name
+
+Set the user_name
+
+### D. Set inserted_key
+
+Set inserted_key as an input argument.
+
+### E. Print response to the monitor
+
+Print the response using struct SECURE_HOUSE member.
+
+# 5. turn_key()
+
+### A. Check argument.
+
+Check for number and format of argument. If it doesn't match to given spec, generates error and returns.
+
+### B. Turn the Lock
+
+If inserted_key and key in keys match, turn the lock. 
+If not, lock state doesn't change.
+Additionally if inserted key is secret key, turn the lock.
+
+### C. Print response to the monitor
+
+Print the response using struct SECURE_HOUSE member.
+
+
+# 6. enter_house()
+
+### A. Check argument.
+
+Check for number and format of argument. If it doesn't match to given spec, generates error and returns.
+
+### B. Check the overlap between user_name and resident
+
+Check if there is overlap between user_name and resident. 
+If there is same user inside the house, it generates error and returns.
+
+### C. Entering house
+
+If all condition is met(e.g. no overlap, house unlocked), user_name is enqueued to resident.
+
+### D. Print response to the monitor
+
+Print the response.
+
+### E. Reset the lock_state
+
+Change the lock_state = LOCKED
+
+# 7. change_locks()
+
+### A. Check argument.
+
+Check for number and format of argument. If it doesn't match to given spec, generates error and returns.
+
+### B. Check the condition
+
+If user_name and owner_name matches, goto SUCCESS, if not goto FAIL.
+
+### C. Rekey
+
+Free the previous keys and newly allocate and set the secure_house.keys.
+
+### D. Print response to the monitor
+
+Print the response.
+
+# 8. leave_house()
+
+### A. Check argument.
+
+Check for number and format of argument. If it doesn't match to given spec, generates error and returns.
+
+### B. Search for user_name within resident.
+
+If there is user_name inside the house, dequeue it. If not, print corresponding messages.
+
+### C. Print response to the monitor.
+
+Print the response.
+
+# 9. house_info()
+
+### A. Check argument.
+
+Check for number and format of argument. If it doesn't match to given spec, generates error and returns.
+
+### B. Print all the user_name in resident.
+
+Print all the head->name in connected to secure_house.resident.

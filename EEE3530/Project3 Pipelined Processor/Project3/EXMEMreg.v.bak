@@ -1,0 +1,32 @@
+module (EXPC, EXWN, EXRD2, EXIMM, EXRW, EXM2R, EXMR, EXMW, EXBranch, MEMPC, MEMWN, MEMRD2, MEMIMM, MEMRW, MEMM2R, MEMMR, MEMMW, MEMBranch clk);
+
+	input EXRW, EXM2R, EXMR, EXMW, EXBranch;
+	input [63:0] EXPC, EXRD2, EXIMM;
+	input [4:0] EXWN;
+	
+	output MEMRW, MEMM2R, MEMMR, MEMMW, MEMBranch;
+	output [63:0] MEMPC, MEMRD2, MEMIMM;
+	output [4:0] MEMWN;
+	
+	reg MEMRW, MEMM2R, MEMMR, MEMMW, MEMBranch;
+	reg[63:0] MEMPC, MEMRD2, MEMIMM;
+	reg [4:0] MEMWN;
+	
+	always @(posedge clk)
+		begin
+		
+			MEMRW <= EXRW;
+			MEMM2R <= EXM2R;
+			MEMMR <= EXMR;
+			MEMMW <= EXMW;
+			MEMBranch <= EXBranch;
+			
+			MEMPC <= EXPC;
+			MEMRD2 <= EXRD2;
+			MEMIMM <= EXIMM;
+			
+			MEMWN <= EXWN;
+			
+		end
+
+endmodule 

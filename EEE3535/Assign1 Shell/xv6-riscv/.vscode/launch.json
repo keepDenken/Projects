@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/ursamajor/Documents/univ/3-2/OS",
+      "program": "/Users/ursamajor/Documents/univ/3-2/OS/build/Debug/outDebug"
+    }
+  ]
+}

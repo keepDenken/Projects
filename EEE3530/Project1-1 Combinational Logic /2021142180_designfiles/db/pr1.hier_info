@@ -1,0 +1,8 @@
+|pr1
+X <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+INPUT[0] => inst14.IN0
+INPUT[1] => inst13.IN0
+INPUT[2] => inst12.IN0
+INPUT[3] => inst11.IN0
+
+

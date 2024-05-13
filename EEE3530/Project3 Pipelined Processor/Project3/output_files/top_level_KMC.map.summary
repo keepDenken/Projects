@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jun 14 15:36:17 2023
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : top_level_KMC
+Top-level Entity Name : top_level_KMC
+Family : Cyclone IV E
+Total logic elements : 1,440
+    Total combinational functions : 1,210
+    Dedicated logic registers : 635
+Total registers : 635
+Total pins : 614
+Total virtual pins : 0
+Total memory bits : 8,387
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

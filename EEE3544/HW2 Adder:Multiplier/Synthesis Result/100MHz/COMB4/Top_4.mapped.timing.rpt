@@ -1,0 +1,165 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Top_4
+Version: Q-2019.12-SP5-5
+Date   : Sun May 12 21:43:45 2024
+****************************************
+
+Operating Conditions: ff1p16v125c   Library: saed32rvt_ff1p16v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: DFF_B_tri_enable_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: DFF_Result_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Top_4              8000                  saed32rvt_ff1p16v125c
+  FA_1bit_145        ForQA                 saed32rvt_ff1p16v125c
+  RCA_32bit          8000                  saed32rvt_ff1p16v125c
+  RCA_4bit_36        ForQA                 saed32rvt_ff1p16v125c
+  RCA_4bit_35        ForQA                 saed32rvt_ff1p16v125c
+  RCA_4bit_34        ForQA                 saed32rvt_ff1p16v125c
+  RCA_4bit_33        ForQA                 saed32rvt_ff1p16v125c
+  RCA_4bit_32        ForQA                 saed32rvt_ff1p16v125c
+  RCA_4bit_31        ForQA                 saed32rvt_ff1p16v125c
+  RCA_4bit_30        ForQA                 saed32rvt_ff1p16v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DFF_B_tri_enable_reg[3]/CLK (DFFX1_RVT)                 0.00       0.00 r
+  DFF_B_tri_enable_reg[3]/QN (DFFX1_RVT)                  0.05       0.05 f
+  DFF_B_tri[3]/Y (TNBUFFX1_RVT)                           0.02       0.07 f
+  module_A/B[3] (RCA_32bit)                               0.00       0.07 f
+  module_A/RCA000/B[3] (RCA_4bit_0)                       0.00       0.07 f
+  module_A/RCA000/FA11/B (FA_1bit_145)                    0.00       0.07 f
+  module_A/RCA000/FA11/U3/Y (XOR2X1_RVT)                  0.94       1.02 f
+  module_A/RCA000/FA11/U2/Y (AO22X1_RVT)                  0.05       1.07 f
+  module_A/RCA000/FA11/Cout (FA_1bit_145)                 0.00       1.07 f
+  module_A/RCA000/Cout (RCA_4bit_0)                       0.00       1.07 f
+  module_A/RCA001/Cin (RCA_4bit_36)                       0.00       1.07 f
+  module_A/RCA001/HA00/Cin (FA_1bit_144)                  0.00       1.07 f
+  module_A/RCA001/HA00/U1/Y (AO22X1_RVT)                  0.00       1.07 f
+  module_A/RCA001/HA00/Cout (FA_1bit_144)                 0.00       1.07 f
+  module_A/RCA001/FA01/Cin (FA_1bit_143)                  0.00       1.07 f
+  module_A/RCA001/FA01/U3/Y (AO22X1_RVT)                  0.03       1.09 f
+  module_A/RCA001/FA01/Cout (FA_1bit_143)                 0.00       1.09 f
+  module_A/RCA001/FA10/Cin (FA_1bit_142)                  0.00       1.09 f
+  module_A/RCA001/FA10/U3/Y (AO22X1_RVT)                  0.03       1.12 f
+  module_A/RCA001/FA10/Cout (FA_1bit_142)                 0.00       1.12 f
+  module_A/RCA001/FA11/Cin (FA_1bit_141)                  0.00       1.12 f
+  module_A/RCA001/FA11/U3/Y (AO22X1_RVT)                  0.02       1.14 f
+  module_A/RCA001/FA11/Cout (FA_1bit_141)                 0.00       1.14 f
+  module_A/RCA001/Cout (RCA_4bit_36)                      0.00       1.14 f
+  module_A/RCA010/Cin (RCA_4bit_35)                       0.00       1.14 f
+  module_A/RCA010/HA00/Cin (FA_1bit_140)                  0.00       1.14 f
+  module_A/RCA010/HA00/U1/Y (AO22X1_RVT)                  0.02       1.17 f
+  module_A/RCA010/HA00/Cout (FA_1bit_140)                 0.00       1.17 f
+  module_A/RCA010/FA01/Cin (FA_1bit_139)                  0.00       1.17 f
+  module_A/RCA010/FA01/U3/Y (AO22X1_RVT)                  0.02       1.19 f
+  module_A/RCA010/FA01/Cout (FA_1bit_139)                 0.00       1.19 f
+  module_A/RCA010/FA10/Cin (FA_1bit_138)                  0.00       1.19 f
+  module_A/RCA010/FA10/U1/Y (AO22X1_RVT)                  0.02       1.21 f
+  module_A/RCA010/FA10/Cout (FA_1bit_138)                 0.00       1.21 f
+  module_A/RCA010/FA11/Cin (FA_1bit_137)                  0.00       1.21 f
+  module_A/RCA010/FA11/U2/Y (AO22X1_RVT)                  0.02       1.24 f
+  module_A/RCA010/FA11/Cout (FA_1bit_137)                 0.00       1.24 f
+  module_A/RCA010/Cout (RCA_4bit_35)                      0.00       1.24 f
+  module_A/RCA011/Cin (RCA_4bit_34)                       0.00       1.24 f
+  module_A/RCA011/HA00/Cin (FA_1bit_136)                  0.00       1.24 f
+  module_A/RCA011/HA00/U3/Y (AO22X1_RVT)                  0.02       1.26 f
+  module_A/RCA011/HA00/Cout (FA_1bit_136)                 0.00       1.26 f
+  module_A/RCA011/FA01/Cin (FA_1bit_135)                  0.00       1.26 f
+  module_A/RCA011/FA01/U3/Y (AO22X1_RVT)                  0.02       1.29 f
+  module_A/RCA011/FA01/Cout (FA_1bit_135)                 0.00       1.29 f
+  module_A/RCA011/FA10/Cin (FA_1bit_134)                  0.00       1.29 f
+  module_A/RCA011/FA10/U3/Y (AO22X1_RVT)                  0.02       1.31 f
+  module_A/RCA011/FA10/Cout (FA_1bit_134)                 0.00       1.31 f
+  module_A/RCA011/FA11/Cin (FA_1bit_133)                  0.00       1.31 f
+  module_A/RCA011/FA11/U3/Y (AO22X1_RVT)                  0.02       1.33 f
+  module_A/RCA011/FA11/Cout (FA_1bit_133)                 0.00       1.33 f
+  module_A/RCA011/Cout (RCA_4bit_34)                      0.00       1.33 f
+  module_A/RCA100/Cin (RCA_4bit_33)                       0.00       1.33 f
+  module_A/RCA100/HA00/Cin (FA_1bit_132)                  0.00       1.33 f
+  module_A/RCA100/HA00/U1/Y (AO22X1_RVT)                  0.02       1.36 f
+  module_A/RCA100/HA00/Cout (FA_1bit_132)                 0.00       1.36 f
+  module_A/RCA100/FA01/Cin (FA_1bit_131)                  0.00       1.36 f
+  module_A/RCA100/FA01/U1/Y (AO22X1_RVT)                  0.02       1.38 f
+  module_A/RCA100/FA01/Cout (FA_1bit_131)                 0.00       1.38 f
+  module_A/RCA100/FA10/Cin (FA_1bit_130)                  0.00       1.38 f
+  module_A/RCA100/FA10/U3/Y (AO22X1_RVT)                  0.02       1.40 f
+  module_A/RCA100/FA10/Cout (FA_1bit_130)                 0.00       1.40 f
+  module_A/RCA100/FA11/Cin (FA_1bit_129)                  0.00       1.40 f
+  module_A/RCA100/FA11/U3/Y (AO22X1_RVT)                  0.02       1.43 f
+  module_A/RCA100/FA11/Cout (FA_1bit_129)                 0.00       1.43 f
+  module_A/RCA100/Cout (RCA_4bit_33)                      0.00       1.43 f
+  module_A/RCA101/Cin (RCA_4bit_32)                       0.00       1.43 f
+  module_A/RCA101/HA00/Cin (FA_1bit_128)                  0.00       1.43 f
+  module_A/RCA101/HA00/U1/Y (AO22X1_RVT)                  0.02       1.45 f
+  module_A/RCA101/HA00/Cout (FA_1bit_128)                 0.00       1.45 f
+  module_A/RCA101/FA01/Cin (FA_1bit_127)                  0.00       1.45 f
+  module_A/RCA101/FA01/U1/Y (AO22X1_RVT)                  0.02       1.48 f
+  module_A/RCA101/FA01/Cout (FA_1bit_127)                 0.00       1.48 f
+  module_A/RCA101/FA10/Cin (FA_1bit_126)                  0.00       1.48 f
+  module_A/RCA101/FA10/U1/Y (AO22X1_RVT)                  0.02       1.50 f
+  module_A/RCA101/FA10/Cout (FA_1bit_126)                 0.00       1.50 f
+  module_A/RCA101/FA11/Cin (FA_1bit_125)                  0.00       1.50 f
+  module_A/RCA101/FA11/U5/Y (AO22X1_RVT)                  0.02       1.52 f
+  module_A/RCA101/FA11/Cout (FA_1bit_125)                 0.00       1.52 f
+  module_A/RCA101/Cout (RCA_4bit_32)                      0.00       1.52 f
+  module_A/RCA110/Cin (RCA_4bit_31)                       0.00       1.52 f
+  module_A/RCA110/HA00/Cin (FA_1bit_124)                  0.00       1.52 f
+  module_A/RCA110/HA00/U1/Y (AO22X1_RVT)                  0.02       1.55 f
+  module_A/RCA110/HA00/Cout (FA_1bit_124)                 0.00       1.55 f
+  module_A/RCA110/FA01/Cin (FA_1bit_123)                  0.00       1.55 f
+  module_A/RCA110/FA01/U1/Y (AO22X1_RVT)                  0.02       1.57 f
+  module_A/RCA110/FA01/Cout (FA_1bit_123)                 0.00       1.57 f
+  module_A/RCA110/FA10/Cin (FA_1bit_122)                  0.00       1.57 f
+  module_A/RCA110/FA10/U1/Y (AO22X1_RVT)                  0.02       1.60 f
+  module_A/RCA110/FA10/Cout (FA_1bit_122)                 0.00       1.60 f
+  module_A/RCA110/FA11/Cin (FA_1bit_121)                  0.00       1.60 f
+  module_A/RCA110/FA11/U2/Y (AO22X1_RVT)                  0.02       1.62 f
+  module_A/RCA110/FA11/Cout (FA_1bit_121)                 0.00       1.62 f
+  module_A/RCA110/Cout (RCA_4bit_31)                      0.00       1.62 f
+  module_A/RCA111/Cin (RCA_4bit_30)                       0.00       1.62 f
+  module_A/RCA111/HA00/Cin (FA_1bit_120)                  0.00       1.62 f
+  module_A/RCA111/HA00/U1/Y (AO22X1_RVT)                  0.02       1.64 f
+  module_A/RCA111/HA00/Cout (FA_1bit_120)                 0.00       1.64 f
+  module_A/RCA111/FA01/Cin (FA_1bit_119)                  0.00       1.64 f
+  module_A/RCA111/FA01/U1/Y (AO22X1_RVT)                  0.02       1.67 f
+  module_A/RCA111/FA01/Cout (FA_1bit_119)                 0.00       1.67 f
+  module_A/RCA111/FA10/Cin (FA_1bit_118)                  0.00       1.67 f
+  module_A/RCA111/FA10/U1/Y (AO22X1_RVT)                  0.02       1.69 f
+  module_A/RCA111/FA10/Cout (FA_1bit_118)                 0.00       1.69 f
+  module_A/RCA111/FA11/Cin (FA_1bit_117)                  0.00       1.69 f
+  module_A/RCA111/FA11/U1/Y (XOR2X1_RVT)                  0.04       1.73 r
+  module_A/RCA111/FA11/C (FA_1bit_117)                    0.00       1.73 r
+  module_A/RCA111/C[3] (RCA_4bit_30)                      0.00       1.73 r
+  module_A/S[31] (RCA_32bit)                              0.00       1.73 r
+  U34/Y (AO222X1_RVT)                                     0.05       1.78 r
+  DFF_Result_reg[31]/D (DFFX1_RVT)                        0.00       1.78 r
+  data arrival time                                                  1.78
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  DFF_Result_reg[31]/CLK (DFFX1_RVT)                      0.00      10.00 r
+  library setup time                                     -0.02       9.98
+  data required time                                                 9.98
+  --------------------------------------------------------------------------
+  data required time                                                 9.98
+  data arrival time                                                 -1.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                        8.20
+
+
+1

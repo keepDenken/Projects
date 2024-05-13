@@ -1,0 +1,10 @@
+module imm_gen (input_32, output_64);
+	input [31:0] input_32;
+	output [63:0] output_64;
+	
+	// fill in the missing code
+
+
+
+	// fill in the missing code
+endmodule

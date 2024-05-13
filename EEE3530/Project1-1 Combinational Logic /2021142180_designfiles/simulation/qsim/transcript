@@ -1,0 +1,132 @@
+# do pr1.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pr1
+# 
+# Top level modules:
+# 	pr1
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pr1_vlg_sample_tst
+# -- Compiling module pr1_vlg_check_tst
+# -- Compiling module pr1_vlg_vec_tst
+# 
+# Top level modules:
+# 	pr1_vlg_vec_tst
+# vsim -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.pr1_vlg_vec_tst 
+# Loading work.pr1_vlg_vec_tst
+# Loading work.pr1
+# Loading work.pr1_vlg_sample_tst
+# Loading work.pr1_vlg_check_tst
+# ERROR! Vector Mismatch for output port X :: @time = 10000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 40000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 50000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 60000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 90000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 100000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 170000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 200000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 210000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 220000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 250000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 260000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 330000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 360000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 370000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 380000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 410000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 420000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 490000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 520000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 530000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 540000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 570000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 580000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 650000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 680000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 690000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 700000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 730000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 740000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 810000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 840000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 850000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 860000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 890000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port X :: @time = 900000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port X :: @time = 970000.000 ps
+#      Expected value = 0
+#      Real value = 1
+#          37 mismatched vectors : Simulation failed !
+# ** Note: $finish    : results.vwf.vt(150)
+#    Time: 1 us  Iteration: 0  Instance: /pr1_vlg_vec_tst/tb_out

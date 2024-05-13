@@ -1,0 +1,46 @@
+# 1. About Command Line Tool MAC
+
+MAC is command line tool that provides the access control of files.
+
+Since owner of the files are root and its permission is set to 0640(which means non-root user cannot see the contents of files), non-root user can't see and modify its contents directly without mediating through MAC. 
+
+Since MAC is root privileged and SUID, SGID bit is set, non-root user can access to file through MAC. As you can see, MAC is abbreviation of Mandatory Access Control, it manages the access to files based on user's clearance levels. It follows read-down, write-up policy.
+
+# 2. Implementation
+
+## A. How it works
+
+### a. argument check
+MAC requires at least 2 additional argument to execute. It checks the number of arguments. When the number of arguments is less or more than it requires, it prints ERROR and return 1.
+
+### b. get subject info
+After checking the number of arguments, it get the information of user executes MAC. It's done by getpwuid and getuid. If it can't get the user info, it prints ERROR and return 1.
+
+### c. get subject clearance level
+By reading "mac.policy", it get the clearance level of subject. mac.policy is owned by root and 0640 permission is set, but since MAC is executed with root privilege, it can access to mac.policy file. If it cannot open mac.policy file or there is no subject matching to user, it prints ERROR and return 1
+
+### d. set struct mac_info
+Struct mac_info contains essential datas for managing access control. It consists of subject name, data(for write request), object name, subject clearance level, object clearance level and type of request. set_mac_info literally set the mac_info variable based on input argument and subject info brought by previous stage.
+
+### e. authorize and perform the request
+By comparing the clearance level between subject and object, it authorize the request. As mentioned earlier, read request is authorized iff clearance level of subject is higher or equal than the object. On the other hand, write request is authorized iff clearance level of subject is lower or equal than the object. 
+
+If the condition is met, it performs request by calling _read() or _write() respect to request type. Otherwise it prints "ACCESS DENIED".
+
+#### (1) _read()
+_read() literally performs read to given object. Since MAC is currently root privileged, it can access and read the contents of the object.
+
+#### (2) _write()
+_write performs write given data to given object.
+
+After performing the request, since root privilege is not required anymore, MAC drops the root privilege by setting its effective uid and gid identical to its physical uid and gid. It's done by setegid(), seteuid(), getgid(), getuid().
+
+### f. write request log
+After dropping the root privilege, it goes into write_log() routine. It opens(if .log file doesn't exist, create it first) and append the request log. If it's unable to open file, it prints ERROR and return 1.
+
+Since effective uid and gid is identical to its physical one, ownership of .log file will be identical to the subject. 
+
+umask() is used to set permission of .log file to 0640. 
+
+### g. finalize mac_info
+Befor exiting MAC, it free the heap memory.

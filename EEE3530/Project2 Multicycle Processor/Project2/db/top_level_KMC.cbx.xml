@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="top_level_KMC">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_level_KMC|BUSMUX:inst11|lpm_mux:$00000" CBX_FILE_NAME="mux_0tc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_level_KMC|reg_file:inst13|altsyncram:ARRAY_rtl_0" CBX_FILE_NAME="altsyncram_a0d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_level_KMC|BUSMUX:inst10|lpm_mux:$00000" CBX_FILE_NAME="mux_0tc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_level_KMC|BUSMUX:inst3|lpm_mux:$00000" CBX_FILE_NAME="mux_0tc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_level_KMC|BUSMUX:inst7|lpm_mux:$00000" CBX_FILE_NAME="mux_0tc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_level_KMC|reg_file:inst13|altsyncram:ARRAY_rtl_1" CBX_FILE_NAME="altsyncram_a0d1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

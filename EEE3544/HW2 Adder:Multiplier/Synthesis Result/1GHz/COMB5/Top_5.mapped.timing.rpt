@@ -1,0 +1,140 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Top_5
+Version: Q-2019.12-SP5-5
+Date   : Sun May 12 21:48:09 2024
+****************************************
+
+Operating Conditions: ff1p16v125c   Library: saed32rvt_ff1p16v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: DFF_B_tri_enable_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: DFF_Result_reg[39]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Top_5              8000                  saed32rvt_ff1p16v125c
+  ROW_MUL_0          8000                  saed32rvt_ff1p16v125c
+  FA_1bit_257        ForQA                 saed32rvt_ff1p16v125c
+  MUL_32bit          8000                  saed32rvt_ff1p16v125c
+  FA_1bit_226        ForQA                 saed32rvt_ff1p16v125c
+  FA_1bit_195        ForQA                 saed32rvt_ff1p16v125c
+  FA_1bit_132        ForQA                 saed32rvt_ff1p16v125c
+  FA_1bit_101        ForQA                 saed32rvt_ff1p16v125c
+  FA_1bit_37         ForQA                 saed32rvt_ff1p16v125c
+  FA_1bit_5          ForQA                 saed32rvt_ff1p16v125c
+  RCA_32bit_1        8000                  saed32rvt_ff1p16v125c
+  RCA_4bit_1         ForQA                 saed32rvt_ff1p16v125c
+  FA_1bit_3          ForQA                 saed32rvt_ff1p16v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DFF_B_tri_enable_reg[0]/CLK (DFFX2_RVT)                 0.00       0.00 r
+  DFF_B_tri_enable_reg[0]/QN (DFFX2_RVT)                  0.05       0.05 f
+  DFF_B_tri[0]/Y (TNBUFFX8_RVT)                           0.04       0.09 r
+  U53/Y (IBUFFX4_RVT)                                     0.00       0.08 f
+  U51/Y (IBUFFX16_RVT)                                    0.03       0.11 r
+  module_B/B[0] (MUL_32bit)                               0.00       0.11 r
+  module_B/ROW0/B (ROW_MUL_0)                             0.00       0.11 r
+  module_B/ROW0/U16/Y (AND2X1_RVT)                        0.02       0.13 r
+  module_B/ROW0/ROW[31]/A (FA_1bit_257)                   0.00       0.13 r
+  module_B/ROW0/ROW[31]/U2/Y (INVX1_RVT)                  0.01       0.14 f
+  module_B/ROW0/ROW[31]/U1/Y (XNOR2X1_RVT)                0.04       0.19 r
+  module_B/ROW0/ROW[31]/U4/Y (XOR2X1_RVT)                 0.03       0.22 r
+  module_B/ROW0/ROW[31]/C (FA_1bit_257)                   0.00       0.22 r
+  module_B/ROW0/Sout[31] (ROW_MUL_0)                      0.00       0.22 r
+  module_B/ROW1/Sin[30] (ROW_MUL_7)                       0.00       0.22 r
+  module_B/ROW1/ROW[30]/B (FA_1bit_226)                   0.00       0.22 r
+  module_B/ROW1/ROW[30]/U2/Y (XOR2X1_RVT)                 0.05       0.27 f
+  module_B/ROW1/ROW[30]/U1/Y (XOR2X2_RVT)                 0.03       0.30 f
+  module_B/ROW1/ROW[30]/C (FA_1bit_226)                   0.00       0.30 f
+  module_B/ROW1/Sout[30] (ROW_MUL_7)                      0.00       0.30 f
+  module_B/ROW2/Sin[29] (ROW_MUL_6)                       0.00       0.30 f
+  module_B/ROW2/ROW[29]/B (FA_1bit_195)                   0.00       0.30 f
+  module_B/ROW2/ROW[29]/U1/Y (XOR2X2_RVT)                 0.04       0.34 r
+  module_B/ROW2/ROW[29]/U2/Y (AO22X1_RVT)                 0.04       0.38 r
+  module_B/ROW2/ROW[29]/Cout (FA_1bit_195)                0.00       0.38 r
+  module_B/ROW2/Cout[29] (ROW_MUL_6)                      0.00       0.38 r
+  module_B/ROW3/Cin[29] (ROW_MUL_5)                       0.00       0.38 r
+  module_B/ROW3/ROW[29]/Cin (FA_1bit_163)                 0.00       0.38 r
+  module_B/ROW3/ROW[29]/U3/Y (XOR2X1_RVT)                 0.05       0.43 f
+  module_B/ROW3/ROW[29]/C (FA_1bit_163)                   0.00       0.43 f
+  module_B/ROW3/Sout[29] (ROW_MUL_5)                      0.00       0.43 f
+  module_B/ROW4/Sin[28] (ROW_MUL_4)                       0.00       0.43 f
+  module_B/ROW4/ROW[28]/B (FA_1bit_132)                   0.00       0.43 f
+  module_B/ROW4/ROW[28]/U1/Y (XOR2X1_RVT)                 0.05       0.48 r
+  module_B/ROW4/ROW[28]/U2/Y (XOR2X1_RVT)                 0.07       0.56 f
+  module_B/ROW4/ROW[28]/C (FA_1bit_132)                   0.00       0.56 f
+  module_B/ROW4/Sout[28] (ROW_MUL_4)                      0.00       0.56 f
+  module_B/ROW5/Sin[27] (ROW_MUL_3)                       0.00       0.56 f
+  module_B/ROW5/ROW[27]/B (FA_1bit_101)                   0.00       0.56 f
+  module_B/ROW5/ROW[27]/U2/Y (XOR2X2_RVT)                 0.04       0.60 r
+  module_B/ROW5/ROW[27]/U3/Y (NAND2X1_RVT)                0.03       0.62 f
+  module_B/ROW5/ROW[27]/U5/Y (NAND2X2_RVT)                0.07       0.69 r
+  module_B/ROW5/ROW[27]/Cout (FA_1bit_101)                0.00       0.69 r
+  module_B/ROW5/Cout[27] (ROW_MUL_3)                      0.00       0.69 r
+  module_B/ROW6/Cin[27] (ROW_MUL_2)                       0.00       0.69 r
+  module_B/ROW6/ROW[27]/Cin (FA_1bit_69)                  0.00       0.69 r
+  module_B/ROW6/ROW[27]/U3/Y (AO22X1_RVT)                 0.03       0.72 r
+  module_B/ROW6/ROW[27]/Cout (FA_1bit_69)                 0.00       0.72 r
+  module_B/ROW6/Cout[27] (ROW_MUL_2)                      0.00       0.72 r
+  module_B/ROW7/Cin[27] (ROW_MUL_1)                       0.00       0.72 r
+  module_B/ROW7/ROW[27]/Cin (FA_1bit_37)                  0.00       0.72 r
+  module_B/ROW7/ROW[27]/U3/Y (IBUFFX4_RVT)               -0.02       0.70 f
+  module_B/ROW7/ROW[27]/U4/Y (INVX2_RVT)                  0.01       0.71 r
+  module_B/ROW7/ROW[27]/U5/Y (AO22X1_RVT)                 0.02       0.73 r
+  module_B/ROW7/ROW[27]/Cout (FA_1bit_37)                 0.00       0.73 r
+  module_B/ROW7/Cout[27] (ROW_MUL_1)                      0.00       0.73 r
+  module_B/FINAL_SUM/B[27] (RCA_32bit_1)                  0.00       0.73 r
+  module_B/FINAL_SUM/RCA110/B[3] (RCA_4bit_2)             0.00       0.73 r
+  module_B/FINAL_SUM/RCA110/FA11/B (FA_1bit_5)            0.00       0.73 r
+  module_B/FINAL_SUM/RCA110/FA11/U1/Y (XOR2X1_RVT)        0.05       0.78 f
+  module_B/FINAL_SUM/RCA110/FA11/U3/Y (OA22X1_RVT)        0.03       0.80 f
+  module_B/FINAL_SUM/RCA110/FA11/Cout (FA_1bit_5)         0.00       0.80 f
+  module_B/FINAL_SUM/RCA110/Cout (RCA_4bit_2)             0.00       0.80 f
+  module_B/FINAL_SUM/RCA111/Cin (RCA_4bit_1)              0.00       0.80 f
+  module_B/FINAL_SUM/RCA111/HA00/Cin (FA_1bit_4)          0.00       0.80 f
+  module_B/FINAL_SUM/RCA111/HA00/U3/Y (OA22X1_RVT)        0.03       0.83 f
+  module_B/FINAL_SUM/RCA111/HA00/Cout (FA_1bit_4)         0.00       0.83 f
+  module_B/FINAL_SUM/RCA111/FA01/Cin (FA_1bit_3)          0.00       0.83 f
+  module_B/FINAL_SUM/RCA111/FA01/U5/Y (IBUFFX4_RVT)       0.03       0.86 r
+  module_B/FINAL_SUM/RCA111/FA01/U4/Y (INVX2_RVT)         0.01       0.87 f
+  module_B/FINAL_SUM/RCA111/FA01/U2/Y (OA22X1_RVT)        0.03       0.90 f
+  module_B/FINAL_SUM/RCA111/FA01/Cout (FA_1bit_3)         0.00       0.90 f
+  module_B/FINAL_SUM/RCA111/FA10/Cin (FA_1bit_2)          0.00       0.90 f
+  module_B/FINAL_SUM/RCA111/FA10/U3/Y (OA22X1_RVT)        0.03       0.93 f
+  module_B/FINAL_SUM/RCA111/FA10/Cout (FA_1bit_2)         0.00       0.93 f
+  module_B/FINAL_SUM/RCA111/FA11/Cin (FA_1bit_1)          0.00       0.93 f
+  module_B/FINAL_SUM/RCA111/FA11/U2/Y (XOR2X1_RVT)        0.03       0.96 f
+  module_B/FINAL_SUM/RCA111/FA11/C (FA_1bit_1)            0.00       0.96 f
+  module_B/FINAL_SUM/RCA111/C[3] (RCA_4bit_1)             0.00       0.96 f
+  module_B/FINAL_SUM/S[31] (RCA_32bit_1)                  0.00       0.96 f
+  module_B/Y[39] (MUL_32bit)                              0.00       0.96 f
+  U128/Y (AO22X1_RVT)                                     0.02       0.98 f
+  DFF_Result_reg[39]/D (DFFX1_RVT)                        0.00       0.98 f
+  data arrival time                                                  0.98
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  DFF_Result_reg[39]/CLK (DFFX1_RVT)                      0.00       1.00 r
+  library setup time                                     -0.02       0.98
+  data required time                                                 0.98
+  --------------------------------------------------------------------------
+  data required time                                                 0.98
+  data arrival time                                                 -0.98
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
